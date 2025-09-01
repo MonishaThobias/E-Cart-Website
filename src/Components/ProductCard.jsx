@@ -1,6 +1,6 @@
 import React from "react";
 import { useDispatch } from "react-redux";
-import { addToCart } from "../Redux/cartSlice";
+import { addToCart } from "../Redux/slice/CartSlice";
 import toast from "react-hot-toast";
 
 const ProductCard = ({ product}) => {

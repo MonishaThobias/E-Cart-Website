@@ -6,7 +6,7 @@ import {
   incrementQty,
   decrementQty,
   addOrder, // ✅ import new reducer
-} from "../Redux/cartSlice";
+} from "../Redux/slice/CartSlice";
 import toast from "react-hot-toast";
 import axios from "axios";
 
