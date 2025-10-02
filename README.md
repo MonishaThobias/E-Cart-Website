@@ -2,13 +2,46 @@
 
 <img width="1181" height="371" alt="Screenshot (01)" src="https://github.com/user-attachments/assets/1430b940-9832-4b5d-b3d0-425f136a4bf8" />
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🛒 E‑Cart Website
 
-Currently, two official plugins are available:
+A clean and responsive e-commerce frontend built using **React**, **Redux**, and **React Router**. This project features product listing with pagination, category-based search, and shopping cart functionality, all integrated with a live API using **Axios**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo**: https://e-cart-website-mu.vercel.app
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- 🗂️ Product listing from API
+- 🔎 Filter products by category
+- 📄 Pagination to navigate product list
+- ➕ Add to Cart / ➖ Remove from Cart
+- 🧺 Clear Cart / ✔️ Checkout with success notification
+- 🧠 State managed using Redux
+- 🔁 React Router for navigation between pages
+- 🌐 Axios for API integration
+- ⚡ Fully responsive layout
+
+---
+- 📦 **Orders Page**: After checkout, orders are saved and displayed with:
+  - Unique order ID
+  - Ordered items with quantity and price
+  - Total price
+  - Date & time of purchase
+ 
+  
+## 🔧 Tech Stack
+
+| Layer       | Tech                      |
+|-------------|---------------------------|
+| Frontend    | React (Vite)              |
+| State       | Redux (with Redux Toolkit)|
+| Routing     | React Router              |
+| HTTP Client | Axios                     |
+| Styling     | CSS / Tailwindcss     |
+| Deployment  | Vercel                    |
+
+---
+
+## 📁 Project Structure
+
